@@ -8,9 +8,9 @@ var app = Express(),
     port = nconf.get('express:port') || 8080;
     twit = new Twit({
         consumer_key: nconf.get('twitter:consumer_key'),
-          consumer_secret: nconf.get('twitter:consumer_secret'),
-          access_token: nconf.get('twitter:access_token'),
-          access_token_secret: nconf.get('twitter:access_token_secret')
+        consumer_secret: nconf.get('twitter:consumer_secret'),
+        access_token: nconf.get('twitter:access_token'),
+        access_token_secret: nconf.get('twitter:access_token_secret')
     });
 
 app.get('/', function (req, res) {
