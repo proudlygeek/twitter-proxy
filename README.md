@@ -6,7 +6,7 @@ Twitter REST API v1.1 simple proxy for your Front-end apps (Backbone, Ember, Ang
 Why?
 ----
 
-Currently there's no way to use Twitter's REST API v1.1 from pure [JavaScript][1] because of CORS[2] restrictions.
+Currently there's no way to use Twitter's REST API v1.1 from pure [JavaScript][1] because of [CORS][2] restrictions.
 The *simplest*, *safest* way is to use a **server-side** proxy like this one.
 
 Instructions
